@@ -22,7 +22,7 @@ return [
     // Gunakan FRONTEND_URL di .env untuk mengatur origin yang diizinkan.
     // Contoh .env: FRONTEND_URL=https://yourdomain.com
     'allowed_origins' => array_filter([
-        env('FRONTEND_URL', 'https://pleasing-cooperation-production-3d5c.up.railway.app'
+        env('FRONTEND_URL', 'https://pleasing-cooperation-production-3d5c.up.railway.app')
     ]),
 
     'allowed_origins_patterns' => [],
